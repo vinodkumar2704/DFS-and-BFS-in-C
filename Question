@@ -1,0 +1,23 @@
+Write a program to implement following graph search algorithms in a directed graph. Assume that
+the vertex ordering in a graph follows the natural number sequence starting from 0.
+(a) Breadth First Search (BFS)
+(b) Depth First Search (DFS)
+Input Format:
+• First line contains two integers n ∈ [1, 1000] and m ∈ [1, 1000] denoting the number of vertices
+and edges respectively.
+• Next m lines denote the pair of vertices representing edge.
+• The last line contains the source vertex.
+Output Format:
+• Print the BFS and DFS traversal respectively in two different lines.
+Sample Input:
+4 6
+0 1
+0 2
+1 2
+2 0
+2 3
+3 3
+0
+Sample Output:
+0 1 2 3
+0 1 2 3
